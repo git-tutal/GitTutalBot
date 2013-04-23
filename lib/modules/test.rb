@@ -1,4 +1,4 @@
-class Test < SuperModule
+class Test
   include Cinch::Plugin
 
     match /test/,:method => :test1

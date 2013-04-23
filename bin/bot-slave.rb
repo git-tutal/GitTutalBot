@@ -2,7 +2,6 @@
 
 require 'cinch'
 require 'active_support/inflector'
-require_relative "../lib/module.rb"
 
 modules = []
 
@@ -26,10 +25,15 @@ bot = Cinch::Bot.new do
   
 end
 
-bot.start
+bot.on :connect do
 
-modules.each do |mod|
+  modules.each do |mod|
 
-  user_list.detect{|user| user.user = "GitMaster"}.send("!#{mod.downcase}")
+    User("GitMaster").send("!#{mod.name.downcase}")
+
+  end
 
 end
+
+bot.start
+
