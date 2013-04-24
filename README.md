@@ -1,19 +1,29 @@
 GitTutalSlave
 =============
 
-Slave for git tutorial
+Slave for git tutorial.
+Le site à aller voir : http://git-tutal.blackbird.co/
 
-How to install:
+## How to install:
 
+```shell
 bundle install
+```
 
-How to launch:
+## How to launch:
 
-bundle exec bin/bot-slave.rb
+```shell
+bundle exec ruby bin/bot-slave.rb
+```
 
-How to Contribute:
+## How to Contribute:
 
-_ Placez vos nouvelles fonctionalités dans le dossier lib/modules
-_ Chaque fonctionnalité doit avoir un nom précis. Reportez vous au document correspondant
-_ Pour une fonctionnalité XXX donnée, nommez le fichier XXX.rb et la classe interne XXX
-_ Un exemple est donné dans lin/modules/test.rb
+* Placez vos nouvelles fonctionalités dans le dossier *./lib/modules*
+* Chaque fonctionnalité doit avoir un nom précis. Reportez vous au document correspondant
+* Pour une fonctionnalité XXX donnée, nommez le fichier XXX.rb et la classe interne XXX
+* Un exemple est donné dans le dossier lin/modules/test.rb
+
+## Quelques références :
+
+La documentation de cinch: https://github.com/cinchrb/cinch
+Quelques exemples de cinch: https://github.com/cinchrb/cinch/tree/master/examples/plugins

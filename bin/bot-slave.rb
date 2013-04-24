@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 require 'cinch'
 require 'active_support/inflector'
 
