@@ -3,6 +3,15 @@ GitTutalSlave
 
 Slave for git tutorial
 
+How to install:
+
+bundle install
+
+How to launch:
+
+bundle exec bin/bot-slave.rb
+
+How to Contribute:
 
 _ Placez vos nouvelles fonctionalités dans le dossier lib/modules
 _ Chaque fonctionnalité doit avoir un nom précis. Reportez vous au document correspondant
