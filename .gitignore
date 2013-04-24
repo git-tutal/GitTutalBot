@@ -3,6 +3,7 @@
 *.rbc
 .bundle
 .config
+NAME
 coverage
 InstalledFiles
 lib/bundler/man

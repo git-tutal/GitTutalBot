@@ -10,6 +10,8 @@ Le site à aller voir : http://git-tutal.blackbird.co/
 bundle install
 ```
 
+Add a file NAME with your bot name inside
+
 ## How to launch:
 
 ```shell
