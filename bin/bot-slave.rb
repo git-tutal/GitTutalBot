@@ -16,7 +16,7 @@ bot = Cinch::Bot.new do
 
     c.server = "irc.iiens.net"
     c.channels = ["#git-tutal"]
-    c.nick   = "IMASLAVE"
+    c.nick   = File.read("./NAME")
     c.plugins.plugins = modules 
     
   end
